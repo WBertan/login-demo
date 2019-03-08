@@ -5,12 +5,12 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 
-class LoginManagerSpec {
-    private lateinit var loginManager: LoginManager
+class LoginManagerImplSpec {
+    private lateinit var loginManager: LoginManagerImpl
 
     @Before
     fun setUp() {
-        loginManager = LoginManager()
+        loginManager = LoginManagerImpl()
     }
 
     @Test
